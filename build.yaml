@@ -25,13 +25,15 @@ include:
     shield: lily58_left
   - board: nice_nano_v2
     shield: lily58_right
+  - board: nice_nano_v2
+    shield: settings_reset
   # -----------------------------------------
   # Change the board appropriately, you can use any board
   - board: seeeduino_xiao_ble
-    shield: my_keyboard_dongle
+    shield: allium58_dongle
   - board: seeeduino_xiao_ble
     shield: settings_reset
   # Add these cmake-args to the peripherals you wish to use with the dongle
   - board: seeeduino_xiao_ble
-    shield: my_keyboard
+    shield: allium58
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
