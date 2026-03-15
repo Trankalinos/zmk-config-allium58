@@ -25,14 +25,4 @@ if SHIELD_LILY58_LEFT
     config BT_MAX_PAIRED
         default 5
 
-    confuig ZMK_BOARD_COMPAT
-        default y
-
-endif
-
-if SHIELD_LILY58_RIGHT
-
-    confuig ZMK_BOARD_COMPAT
-        default y
-
 endif
